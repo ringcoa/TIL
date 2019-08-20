@@ -18,10 +18,13 @@ JSX를 사용하면 어플리케이션 속도를 높히고 가독성을 높혀 �
 br , input 태그도 예외 X  
 selfclosing 을 사용하여 닫을수 있다.  
 2. 두개이상의 태그는 꼭 하나의 태그로 감싸져 있어야 한다. 
+    ```javascript
     <>
 	    <div>두개이상의</div>
 	    <p>태그는 하나의 태그로 감싸져 있어야 한다</p>
 	<> // 빈태그로 감싸기가 가능하다.
+    ```
+    
 3. javascript 값을 사용할 때는 {} 를 사용한다.  
 4. 스타일을 지정해 줄떄는 객체를 생성해야 한다.  
 const style = {backgroundColor : 'balck' , color : '#fff'}  
