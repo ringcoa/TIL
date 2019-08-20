@@ -2,10 +2,11 @@
 새 프로젝트 생성 : npx  create-react-app [프로젝트이름]
 
 ##컴포넌트(함수형 작성)
-
+    ```javascript
     function Name(){ //함수형 컴포넌트 생성시 첫글자는 대문자
 	    return <div> </ div> // <-JSX
     }
+    ```
 
 export default Name;  <- Name 이라는 컴포넌트를 만들어 내보내겠다 라는 뜻
 
@@ -32,7 +33,11 @@ const style = {backgroundColor : 'balck' , color : '#fff'}
 5. class대신  className을 사용한다.
 6. 주석처리 {/* 주석내용 */}  
 
-## JSX 규칙
+## ReactJS 프로젝트의 디럭터리 구조
+* node-modules : package manager을 통해 설치된모듈들이 모여있는 디렉토리
+* public : ReactJS 의 HTML 파일과 favicon이 들어있는 디렉토리
+* src : 대부분의 코딩이 이뤄지는 디렉토리 reactJS 컴포넌트가 모여있는 곳
+* package.json : package manager을 통해 설치된 모듈과 스크립트 명령어 등을 담고있는 json파일
 
 
 
