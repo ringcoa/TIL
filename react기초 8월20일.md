@@ -1,7 +1,7 @@
 # 반응
 새 프로젝트 생성 : npx  create-react-app [프로젝트이름]
 
-컴포넌트(함수영 작성)
+컴포넌트(함수형 작성)
 
     function Name(){ //함수형 컴포넌트 생성시 첫글자는 대문자
 	    return <div> </ div> // <-JSX
