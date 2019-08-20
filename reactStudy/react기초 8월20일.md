@@ -1,12 +1,13 @@
-# 반응
+# REACT
 새 프로젝트 생성 : npx  create-react-app [프로젝트이름]
 
 ##컴포넌트(함수형 작성)
-    ```javascript
-    function Name(){ //함수형 컴포넌트 생성시 첫글자는 대문자  
-	    return <div> </ div> // <-JSX  
+ ```javascript
+    function Name(){ // 함수형 컴포넌트 생성시 첫알파벳은 대문자로 시작한다.
+        return <div></div> // <- JSX
     }
-    ```
+ ```
+
 
 export default Name;  <- Name 이라는 컴포넌트를 만들어 내보내겠다 라는 뜻
 
