@@ -3,8 +3,8 @@
 
 ##컴포넌트(함수형 작성)
     ```javascript
-    function Name(){ //함수형 컴포넌트 생성시 첫글자는 대문자
-	    return <div> </ div> // <-JSX
+    function Name(){ //함수형 컴포넌트 생성시 첫글자는 대문자  
+	    return <div> </ div> // <-JSX  
     }
     ```
 
