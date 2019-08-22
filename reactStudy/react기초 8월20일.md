@@ -1,7 +1,7 @@
 # REACT
 새 프로젝트 생성 : npx  create-react-app [프로젝트이름]
 
-##컴포넌트(함수형 작성)
+## 컴포넌트(함수형 작성)
  ```javascript
     function Name(){ // 함수형 컴포넌트 생성시 첫알파벳은 대문자로 시작한다.
         return <div></div> // <- JSX
