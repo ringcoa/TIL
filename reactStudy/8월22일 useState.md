@@ -34,5 +34,4 @@ function Counter(){
 
 export default Counter;
 ```
- useState를 사용한 카운터
- 
+ useState를 사용한 카운터만들기
